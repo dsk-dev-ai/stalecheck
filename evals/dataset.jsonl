@@ -1,0 +1,44 @@
+{"id": "stale-001", "category": "models", "text": "GPT-4o is the latest OpenAI model.", "expected": "stale", "note": "Superseded by GPT-5 (Aug 2025)."}
+{"id": "stale-002", "category": "python", "text": "Python 3.11 is the latest version of the language.", "expected": "stale", "note": "Python 3.14 shipped Oct 2025."}
+{"id": "stale-003", "category": "node", "text": "Node 18 is the LTS release for production.", "expected": "stale", "note": "Node 24 is the active LTS line."}
+{"id": "stale-004", "category": "react", "text": "React 18 is the latest major version of React.", "expected": "stale", "note": "React 19 shipped Dec 2024."}
+{"id": "stale-005", "category": "models", "text": "Claude 3.5 Sonnet is the latest model from Anthropic.", "expected": "stale", "note": "Claude 4.5 family supersedes it."}
+{"id": "stale-006", "category": "models", "text": "Gemini 1.5 Pro is the latest model from Google.", "expected": "stale", "note": "Gemini 3 is current."}
+{"id": "stale-007", "category": "hardware", "text": "The iPhone 15 is the latest iPhone available.", "expected": "stale", "note": "iPhone 17 family is current."}
+{"id": "stale-008", "category": "crypto", "text": "The Bitcoin block reward is 6.25 BTC for miners.", "expected": "stale", "note": "Halved to 3.125 BTC in April 2024."}
+{"id": "stale-009", "category": "web", "text": "HTTP/2 is the latest version of the HTTP protocol.", "expected": "stale", "note": "HTTP/3 is current."}
+{"id": "stale-010", "category": "os", "text": "Ubuntu 22.04 is the latest LTS release.", "expected": "stale", "note": "Ubuntu 26.04 LTS is current."}
+{"id": "stale-011", "category": "ml", "text": "PyTorch 1.x is the latest stable release.", "expected": "stale", "note": "PyTorch 2.x is current."}
+{"id": "stale-012", "category": "brand", "text": "Twitter is still called Twitter today.", "expected": "stale", "note": "Renamed X in July 2023."}
+{"id": "fresh-001", "category": "models", "text": "GPT-5 is the latest OpenAI model.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-002", "category": "python", "text": "Python 3.14 is the latest stable release.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-003", "category": "node", "text": "Node 24 is the LTS release for production.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-004", "category": "react", "text": "React 19 is the latest major version of React.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-005", "category": "models", "text": "Claude Opus 4.5 is the latest model from Anthropic.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-006", "category": "models", "text": "Gemini 3 is the latest model from Google.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-007", "category": "hardware", "text": "The iPhone 17 is the latest iPhone available.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-008", "category": "crypto", "text": "The Bitcoin block reward is 3.125 BTC for miners.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-009", "category": "web", "text": "HTTP/3 is the latest version of the HTTP protocol.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-010", "category": "os", "text": "Ubuntu 26.04 is the latest LTS release.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-011", "category": "ml", "text": "PyTorch 2.9 is the latest stable release.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "fresh-012", "category": "brand", "text": "X, formerly Twitter, is the name of the platform.", "expected": "fresh", "note": "Matches snapshot."}
+{"id": "unk-001", "category": "unknown", "text": "The Zorblax API costs $42 per call.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-002", "category": "unknown", "text": "Our internal SDK version 9.3.1 is the latest build.", "expected": "unverifiable", "note": "Private/unknown."}
+{"id": "unk-003", "category": "unknown", "text": "Acme Cloud was launched in 2023 by a small team.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-004", "category": "unknown", "text": "The Frobnitz model is the latest release from Nvidia.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-005", "category": "unknown", "text": "Contoso charges $0.004 per token for its inference API.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-006", "category": "unknown", "text": "Version 4.2 of the WidgetDB database is the current stable release.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-007", "category": "unknown", "text": "The Helios-9 satellite launched in 2024.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-008", "category": "unknown", "text": "The Quux programming language is at version 0.8.0.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-009", "category": "unknown", "text": "Initech's latest pricing starts at $99 per seat.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-010", "category": "unknown", "text": "The current CEO of Globex is Jane Doe.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-011", "category": "unknown", "text": "The Zephyr protocol replaced TCP in 2025.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "unk-012", "category": "unknown", "text": "The latest version of HooliDB is 7.1.0.", "expected": "unverifiable", "note": "No source covers this."}
+{"id": "hard-001", "category": "hard", "text": "GPT-4 Turbo remains OpenAI's top model.", "expected": "stale", "note": "Known limitation: 'top model' is not a recognized freshness marker."}
+{"id": "hard-002", "category": "hard", "text": "OpenAI has moved past GPT-4o to GPT-5.", "expected": "fresh", "note": "Known limitation: correct transition with no freshness marker."}
+{"id": "hard-003", "category": "hard", "text": "Anthropic's newest model is Claude Sonnet 4.", "expected": "stale", "note": "Known limitation: 4.5 vs 4 distinction is not in the alias map."}
+{"id": "hard-004", "category": "hard", "text": "The Bitcoin block subsidy is 6.25 BTC.", "expected": "stale", "note": "Known limitation: 'subsidy' phrasing bypasses the explicit phrase."}
+{"id": "hard-005", "category": "hard", "text": "Node 18, not Node 24, is the LTS release.", "expected": "stale", "note": "Clause-scoped negation handled."}
+{"id": "hard-006", "category": "hard", "text": "HTTP/2, not HTTP/3, is the latest HTTP version.", "expected": "stale", "note": "Clause-scoped negation handled."}
+{"id": "hard-007", "category": "hard", "text": "GPT-4o is not the latest OpenAI model anymore.", "expected": "fresh", "note": "Negated stale phrase handled."}
+{"id": "hard-008", "category": "hard", "text": "The newest Python release is 3.10.", "expected": "stale", "note": "Known limitation: version number is separated from the language name."}

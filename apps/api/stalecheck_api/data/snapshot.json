@@ -1,0 +1,246 @@
+{
+  "as_of": "2026-11-01",
+  "note": "Bundled demo knowledge base. Used only in mock mode / as a cheap pre-filter. Set TAVILY_API_KEY for live verification.",
+  "facts": [
+    {
+      "topic": "openai-flagship",
+      "aliases": ["gpt-4o", "gpt-4 turbo", "gpt-4", "gpt-5", "openai flagship", "openai's flagship", "chatgpt model"],
+      "outdated_aliases": ["gpt-4o", "gpt-4 turbo", "gpt-4"],
+      "current_aliases": ["gpt-5", "gpt-5 family"],
+      "stale_phrases": [
+        "gpt-4o is the latest",
+        "gpt-4o is openai's latest",
+        "gpt-4 is the latest",
+        "gpt-4 turbo is the latest",
+        "openai's latest model is gpt-4",
+        "openai's most capable model is gpt-4"
+      ],
+      "fresh_phrases": [
+        "gpt-5 is openai's latest",
+        "gpt-5 is the latest",
+        "openai's latest model is gpt-5",
+        "gpt-5 family",
+        "gpt-5 is openai"
+      ],
+      "current": "GPT-5 is OpenAI's flagship model (released August 2025), succeeding GPT-4o.",
+      "source_title": "Introducing GPT-5",
+      "source_url": "https://openai.com/index/introducing-gpt-5/"
+    },
+    {
+      "topic": "python-latest",
+      "aliases": ["python 3.9", "python 3.10", "python 3.11", "python 3.12", "python 3.13", "python 3.14", "latest python"],
+      "outdated_aliases": ["python 3.9", "python 3.10", "python 3.11", "python 3.12", "python 3.13"],
+      "current_aliases": ["python 3.14"],
+      "stale_phrases": [
+        "python 3.11 is the latest",
+        "python 3.11 is the newest",
+        "python 3.10 is the latest",
+        "python 3.12 is the latest",
+        "python 3.9 is the latest",
+        "latest python is 3.11"
+      ],
+      "fresh_phrases": [
+        "python 3.14 is the latest",
+        "python 3.14 is the newest",
+        "latest python is 3.14",
+        "python 3.14"
+      ],
+      "current": "Python 3.14 is the latest stable release (October 2025).",
+      "source_title": "Python downloads",
+      "source_url": "https://www.python.org/downloads/"
+    },
+    {
+      "topic": "node-lts",
+      "aliases": ["node 16", "node 18", "node 20", "node 22", "node 24", "node.js 16", "node.js 18", "node.js 20", "node.js 22", "node.js 24", "node.js lts", "nodejs lts", "node lts"],
+      "outdated_aliases": ["node 16", "node 18", "node 20", "node 22", "node.js 16", "node.js 18", "node.js 20", "node.js 22"],
+      "current_aliases": ["node 24", "node.js 24"],
+      "stale_phrases": [
+        "node 18 is the lts",
+        "node.js 18 is the lts",
+        "node 16 is the lts",
+        "node 20 is the latest lts",
+        "node.js 20 is the latest lts",
+        "node 18 is the latest"
+      ],
+      "fresh_phrases": [
+        "node 24 is the lts",
+        "node.js 24 is the lts",
+        "node 24 is the latest lts",
+        "node.js 24 is the latest lts"
+      ],
+      "current": "Node.js 24 is the active LTS line as of late 2025; Node.js 20 and 22 are in maintenance.",
+      "source_title": "Node.js previous releases",
+      "source_url": "https://nodejs.org/en/about/previous-releases"
+    },
+    {
+      "topic": "react-latest",
+      "aliases": ["react 17", "react 18", "react 19", "latest react"],
+      "outdated_aliases": ["react 17", "react 18"],
+      "current_aliases": ["react 19"],
+      "stale_phrases": [
+        "react 18 is the latest",
+        "react 17 is the latest",
+        "react 18 is the newest"
+      ],
+      "fresh_phrases": [
+        "react 19 is the latest",
+        "react 19 is the newest",
+        "latest react is 19",
+        "react 19"
+      ],
+      "current": "React 19 is the current major release (December 2024).",
+      "source_title": "React v19",
+      "source_url": "https://react.dev/blog/2024/12/05/react-19"
+    },
+    {
+      "topic": "claude-latest",
+      "aliases": ["claude 3", "claude 3.5", "claude 3 opus", "claude 3.5 sonnet", "claude sonnet 4", "claude opus 4", "claude 4", "claude 4.5"],
+      "outdated_aliases": ["claude 3", "claude 3.5", "claude 3 opus", "claude 3.5 sonnet"],
+      "current_aliases": ["claude 4.5", "claude sonnet 4.5", "claude opus 4.5", "claude 4"],
+      "stale_phrases": [
+        "claude 3.5 sonnet is the latest",
+        "claude 3 opus is the latest",
+        "claude 3 is the latest",
+        "claude 3.5 is the latest"
+      ],
+      "fresh_phrases": [
+        "claude 4.5",
+        "claude sonnet 4.5",
+        "claude opus 4.5",
+        "claude 4 is the latest"
+      ],
+      "current": "Claude 4.5 family (Opus 4.5 and Sonnet 4.5) is Anthropic's current frontier line.",
+      "source_title": "Anthropic news",
+      "source_url": "https://www.anthropic.com/news"
+    },
+    {
+      "topic": "gemini-latest",
+      "aliases": ["gemini 1.0", "gemini 1.5", "gemini 1.5 pro", "gemini 2.0", "gemini 2.5", "gemini 2.5 pro", "gemini 3"],
+      "outdated_aliases": ["gemini 1.0", "gemini 1.5", "gemini 1.5 pro", "gemini 2.0"],
+      "current_aliases": ["gemini 2.5", "gemini 2.5 pro", "gemini 3"],
+      "stale_phrases": [
+        "gemini 1.5 pro is the latest",
+        "gemini 1.5 is the latest",
+        "gemini 2.0 is the latest",
+        "gemini 1.5 pro is google's latest"
+      ],
+      "fresh_phrases": [
+        "gemini 3",
+        "gemini 2.5 pro",
+        "gemini 3 is the latest"
+      ],
+      "current": "Gemini 3 is Google's current flagship family (late 2025); Gemini 2.5 remains widely available.",
+      "source_title": "Google AI blog",
+      "source_url": "https://blog.google/technology/ai/"
+    },
+    {
+      "topic": "iphone-latest",
+      "aliases": ["iphone 14", "iphone 15", "iphone 16", "iphone 17", "latest iphone"],
+      "outdated_aliases": ["iphone 14", "iphone 15", "iphone 16"],
+      "current_aliases": ["iphone 17"],
+      "stale_phrases": [
+        "iphone 15 is the latest",
+        "iphone 14 is the latest",
+        "iphone 16 is the latest"
+      ],
+      "fresh_phrases": ["iphone 17", "iphone 17 is the latest"],
+      "current": "The iPhone 17 family is the current lineup (September 2025).",
+      "source_title": "iPhone",
+      "source_url": "https://www.apple.com/iphone/"
+    },
+    {
+      "topic": "bitcoin-reward",
+      "aliases": ["bitcoin block reward", "bitcoin mining reward", "block subsidy", "6.25 btc", "12.5 btc", "3.125 btc"],
+      "outdated_aliases": ["6.25 btc", "12.5 btc"],
+      "current_aliases": ["3.125 btc"],
+      "stale_phrases": [
+        "block reward is 6.25",
+        "block reward is 12.5",
+        "6.25 btc per block",
+        "12.5 btc per block"
+      ],
+      "fresh_phrases": [
+        "3.125 btc",
+        "block reward is 3.125",
+        "3.125 btc per block"
+      ],
+      "current": "Bitcoin's block subsidy is 3.125 BTC after the April 2024 halving.",
+      "source_title": "Bitcoin block reward",
+      "source_url": "https://www.bitcoin.com/"
+    },
+    {
+      "topic": "http-version",
+      "aliases": ["http/1.1", "http/2", "http/3", "latest http"],
+      "outdated_aliases": ["http/1.1", "http/2"],
+      "current_aliases": ["http/3"],
+      "stale_phrases": [
+        "http/2 is the latest",
+        "http/1.1 is the latest",
+        "http 2 is the latest"
+      ],
+      "fresh_phrases": ["http/3 is the latest", "http 3 is the latest", "http/3"],
+      "current": "HTTP/3 (RFC 9114) is the current HTTP version, built on QUIC.",
+      "source_title": "RFC 9114: HTTP/3",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc9114"
+    },
+    {
+      "topic": "ubuntu-lts",
+      "aliases": ["ubuntu 20.04", "ubuntu 22.04", "ubuntu 24.04", "ubuntu 26.04", "latest ubuntu lts"],
+      "outdated_aliases": ["ubuntu 20.04", "ubuntu 22.04", "ubuntu 24.04"],
+      "current_aliases": ["ubuntu 26.04"],
+      "stale_phrases": [
+        "ubuntu 22.04 is the latest lts",
+        "ubuntu 22.04 is the current lts",
+        "ubuntu 20.04 is the latest lts",
+        "ubuntu 24.04 is the latest lts"
+      ],
+      "fresh_phrases": [
+        "ubuntu 26.04 is the latest lts",
+        "ubuntu 26.04",
+        "latest ubuntu lts is 26.04"
+      ],
+      "current": "Ubuntu 26.04 LTS is the current long-term support release (April 2026).",
+      "source_title": "Ubuntu downloads",
+      "source_url": "https://ubuntu.com/download"
+    },
+    {
+      "topic": "pytorch-latest",
+      "aliases": ["pytorch 1", "pytorch 1.x", "pytorch 2.0", "pytorch 2.9", "pytorch 2.8", "pytorch 2.7", "latest pytorch"],
+      "outdated_aliases": ["pytorch 1", "pytorch 1.x", "pytorch 2.0"],
+      "current_aliases": ["pytorch 2.9", "pytorch 2.8", "pytorch 2.7"],
+      "stale_phrases": [
+        "pytorch 1.x is the latest",
+        "pytorch 1 is the latest",
+        "pytorch 2.0 is the latest"
+      ],
+      "fresh_phrases": [
+        "pytorch 2.9",
+        "pytorch 2.8",
+        "pytorch 2.7"
+      ],
+      "current": "PyTorch 2.x is the current major line (2.9 as of late 2025).",
+      "source_title": "PyTorch install",
+      "source_url": "https://pytorch.org/get-started/locally/"
+    },
+    {
+      "topic": "twitter-name",
+      "aliases": ["twitter", "twitter's name", "the platform twitter"],
+      "outdated_aliases": [],
+      "current_aliases": [],
+      "stale_phrases": [
+        "twitter is still called twitter",
+        "the company is still called twitter",
+        "twitter is named twitter"
+      ],
+      "fresh_phrases": [
+        "x, formerly twitter",
+        "formerly twitter",
+        "the platform is now called x",
+        "twitter is now x"
+      ],
+      "current": "Twitter was renamed X in July 2023; the platform is called X.",
+      "source_title": "X",
+      "source_url": "https://x.com/"
+    }
+  ]
+}

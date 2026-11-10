@@ -10,6 +10,9 @@ returns a verdict, the evidence, and a corrected statement — before the answer
 > MVP scope: API + Python SDK + CLI + JS SDK + dashboard + eval suite, deployable entirely on
 > free tiers.
 
+**Live:** dashboard → https://stalecheck.pages.dev · API → https://stalecheck-api.onrender.com/health
+(free tiers: Cloudflare Pages + Render).
+
 ---
 
 ## The problem

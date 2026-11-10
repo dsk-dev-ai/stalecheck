@@ -90,18 +90,22 @@ uv run uvicorn stalecheck_api.main:app --reload --port 8000
 
 ---
 
-## What is in v0.1.0
+## What is in v1.0.0
 
 - **API** — FastAPI service with claim extraction, volatility scoring, snapshot + Tavily
   verification, LLM judging, caching, run history, optional API-key auth.
 - **Python SDK** — `stalecheck` client with sync/async checks and `guard_answer` middleware.
-- **CLI** — `stalecheck check`, `scan` (CI-friendly exit codes), `stats`, `serve`.
+- **CLI** — `stalecheck check`, `scan` (CI-friendly exit codes), `stats`, `serve`, `version`.
 - **JS SDK** — `@stalecheck/sdk` with `check`, `guardAnswer`, typed responses.
-- **Dashboard** — static Next.js app: checker, claim drilldown, evidence links, run history,
-  live stats.
+- **LangChain adapter** — `stalecheck-langchain` `StaleCheckCallbackHandler` for post-answer guarding.
+- **Dashboard** — static Next.js app: checker with optional RAG context, claim drilldown,
+  evidence links, run history, live stats.
+- **Live mode** — Gemini (or any OpenAI-compatible) judge + Tavily live web, with offline
+  snapshot/rule-based fallback.
 - **Evals** — 44 labeled examples with precision/recall/F1, wired into CI as a regression gate.
-- **Deploy** — root `Dockerfile`, `render.yaml`, `fly.toml`, HF Space template, free-tier guide.
-- **Tests + CI** — pipeline/API tests, ruff, eval gate, web and SDK builds.
+- **Deploy** — root `Dockerfile`, `render.yaml`, `fly.toml`, HF Space template, free-tier guide,
+  GitHub Actions web deploy to Cloudflare Pages.
+- **Tests + CI** — pipeline/API/LangChain tests, ruff, eval gate, web and SDK builds.
 
 ---
 

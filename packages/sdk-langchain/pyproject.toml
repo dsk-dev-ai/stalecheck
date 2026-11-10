@@ -5,7 +5,7 @@ description = "LangChain callback handler adapter for StaleCheck"
 requires-python = ">=3.11"
 dependencies = [
   "langchain-core>=0.3.0",
-  "stalecheck>=0.1.0",
+  "stalecheck>=1.0.0",
 ]
 
 [project.optional-dependencies]

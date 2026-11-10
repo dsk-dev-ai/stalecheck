@@ -1,6 +1,6 @@
 [project]
 name = "stalecheck-workspace"
-version = "0.1.0"
+version = "1.0.0"
 description = "StaleCheck monorepo: API, SDK/CLI, dashboard and evals"
 requires-python = ">=3.11"
 dependencies = ["stalecheck", "stalecheck-api", "stalecheck-langchain"]

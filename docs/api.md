@@ -84,7 +84,7 @@ Returns the full run, including `input_text` and all claims. `404` when unknown.
 ## `GET /health`
 
 ```json
-{"status": "ok", "version": "0.1.0", "provider": "mock", "live_web": false, "auth": false}
+{"status": "ok", "version": "1.0.0", "provider": "mock", "live_web": false, "auth": false}
 ```
 
 ## Errors

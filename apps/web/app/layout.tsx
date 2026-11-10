@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="brand">
             <span className="dot" />
             <Link href="/">StaleCheck</Link>
-            <span className="tag">v0.1</span>
+            <span className="tag">v1.0.0</span>
           </div>
           <nav>
             <Link href="/">Check</Link>

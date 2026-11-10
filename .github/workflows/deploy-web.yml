@@ -26,6 +26,8 @@ jobs:
         run: pnpm install --no-frozen-lockfile
       - name: Build
         run: pnpm build
+        env:
+          NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL || 'http://localhost:8000' }}
       - name: Ensure Cloudflare Pages project
         uses: cloudflare/wrangler-action@v3
         continue-on-error: true

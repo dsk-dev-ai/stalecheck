@@ -26,9 +26,16 @@ jobs:
         run: pnpm install --no-frozen-lockfile
       - name: Build
         run: pnpm build
+      - name: Ensure Cloudflare Pages project
+        uses: cloudflare/wrangler-action@v3
+        continue-on-error: true
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create stalecheck --production-branch=main
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./out --project-name=stalecheck --branch=main
+          command: pages deploy ./out --project-name=stalecheck --branch=main --commit-dirty=true

@@ -12,6 +12,7 @@ returns a verdict, the evidence, and a corrected statement — before the answer
 
 **Live:** dashboard → https://stalecheck.pages.dev · API → https://stalecheck-api.onrender.com/health
 (free tiers: Cloudflare Pages + Render).
+**Demo video:** [`docs/StaleCheck-Demo.mp4`](docs/StaleCheck-Demo.mp4) · **Pitch deck:** [`docs/StaleCheck-Pitch-Deck.pptx`](docs/StaleCheck-Pitch-Deck.pptx)
 
 ---
 
